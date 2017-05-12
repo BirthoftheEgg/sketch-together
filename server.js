@@ -7,7 +7,7 @@ app.use(express.static());
 
 console.log("Socket server running on port 8090");
 
-var socket = require('socket.io').listen(server);
+var socket = require('socket.io');
 
 var io = socket(server);
 
