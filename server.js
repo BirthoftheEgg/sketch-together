@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 var server = app.listen(8090);
 
-app.use(express.static('public'));
+app.use(express.static());
 
 console.log("Socket server running on port 8090");
 
